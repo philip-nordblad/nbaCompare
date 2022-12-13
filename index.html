@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #ffffff;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(0, 0, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: white">
+    <h1 style="position: center; font-size: 60px">CUTIE!</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/lebron.jpg" alt="" />
+      </div>
+      <div class="grid-item">VS.</div>
+      <div class="grid-item">
+        <img src="images/mj.jpg" width="200" alt="" />
+      </div>
+      <div class="grid-item">
+        <label for="players">Choose a player:</label>
+        <select name="Players" id="players">
+          <option value="lbj">Lebron James</option>
+          <option value="mj">Michael Jordan</option>
+        </select>
+      </div>
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <label for="players">Choose a player:</label>
+        <select name="Players" id="players">
+          <option value="lbj">Lebron James</option>
+          <option value="mj">Michael Jordan</option>
+        </select>
+      </div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">PTS<br />REB<br />AST<br />FG%</div>
+      <div class="grid-item">9</div>
+    </div>
+  </body>
+</html>
